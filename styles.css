@@ -1,4 +1,9 @@
 /* Basic Reset */
+:root {
+    --primary-color: #007bff;
+    --footer-color: #343a40;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
@@ -11,7 +16,7 @@ body {
 
 /* Header Styling */
 header {
-    background: #007bff;
+    background: var(--primary-color);
     color: white;
     padding: 20px 0;
 }
@@ -31,7 +36,7 @@ section {
 
 /* Footer Styling */
 footer {
-    background: #343a40;
+    background: var(--footer-color);
     color: white;
     padding: 10px 0;
 }
